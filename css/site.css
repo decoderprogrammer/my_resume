@@ -1,0 +1,45 @@
+.progress-bar {
+	font-size: 14px !important;
+	height: 30px !important;
+}
+
+.valid-feedback.feedback-icon,
+.invalid-feedback.feedback-icon {
+	position: absolute;
+	width: auto;
+	bottom: 10px;
+	right: 10px;
+	margin-top: 0;
+}
+
+a.RedirectLink {
+	color: #007bff !important;
+	text-decoration: none !important;
+	cursor: pointer !important;
+}
+
+@media not screen and (max-width: 992px) {
+	.pl-m-0 {
+		padding-left: 0px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.pt-x-1 {
+		padding-top: 5px;
+	}
+
+	.admin-profile {
+		width: max-content;
+		margin: 0 auto;
+	}
+
+	.profile-buttons {
+		text-align: center;
+	}
+
+	#portfolio {
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+}
